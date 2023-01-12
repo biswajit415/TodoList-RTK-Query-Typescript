@@ -1,0 +1,48 @@
+.todo{
+   
+    display: flex;
+    gap: 10px;
+
+    border: 0.5px gray solid;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width:100% ;
+    justify-content: space-between;
+
+}
+.todo >input{
+    width: 3%;  
+  
+}
+
+.todo >span{
+    font-family: sans-serif;
+    color: black;
+    font-size: 1rem;
+    width: 80%;
+}
+.todo >button{
+    width: 10%;
+}
+.todo >button:hover{
+  background-color: rgb(201, 29, 29);
+  border: none;
+  color: white;
+}
+
+.loading_container{
+    
+    gap: 10px;
+    border: 0.5px gray solid;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width:100% ;
+    text-align: center;
+
+    
+}
+
